@@ -4,4 +4,11 @@ members = [
   "client",
   "server",
   "signal",
+  "udp-server",
+  "udp-client",
 ]
+
+resolver = "2"
+
+[patch.crates-io]
+webrtc = { path  = "../webrtc/webrtc" }
